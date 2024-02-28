@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++11
-LIBS = -L/opt/homebrew/lib -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui -lopencv_core -lopencv_videoio -lopencv_videostab -lopencv_objdetect
+LIBS = -L/opt/homebrew/lib -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui -lopencv_core -lopencv_videoio -lopencv_videostab -lopencv_objdetect -lopencv_dnn
 INCLUDES = -I/opt/homebrew/include/opencv4
 
 
